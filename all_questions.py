@@ -8,22 +8,22 @@ def question1():
     answers = {}
 
     # type: bool (True/False)
-    answers["(a)"] = -1
+    answers["(a)"] = True
 
     # type: explanatory string (at least four words)
-    answers["(a) explain"] = ""
+    answers["(a) explain"] = "Because agglomerative hierarchical clustering processes do not rely on the concept of centroids, outliers can be incorporated into the appropriate clusters during the hierarchical merging phase, making them more resilient against outliers."
 
     # type: bool (True/False)
-    answers["(b)"] = -1
+    answers["(b)"] = False
 
     # type: explanatory string (at least four words)
-    answers["(b) explain"] = ""
+    answers["(b) explain"] = "Both k-means and agglomerative hierarchical clustering can produce different clusterings for the same dataset in different runs due to randomness in initialization and tie-breaking rules."
 
     # type: bool (True/False)
-    answers["(c)"] = -1
+    answers["(c)"] = False
 
     # type: explanatory string (at least four words)
-    answers["(c) explain"] = ""
+    answers["(c) explain"] = "K-means is generally faster and requires less memory than agglomerative hierarchical clustering, but it's not always the most efficient clustering algorithm overall. Other algorithms, like DBSCAN, may be more suitable for certain datasets and tasks"
 
     # type: bool (True/False)
     answers["(d)"] = -1

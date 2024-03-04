@@ -329,7 +329,7 @@ def question9():
     answers["(e)"] = ["Partitional", "Exclusive", "Complete"]
 
     # type: explanatory string (at least four words)
-    answers["(e) explain"] = "Letter grades are discrete categories which makes them exclusive. Each student can only receive one grade which is Exclusive. Every student in the class will earn a grade which is complete."
+    answers["(e) explain"] = "Letter grades are discrete categories which makes them partitional. Each student can only receive one grade which is exclusive. Every student in the class will earn a grade which is complete."
 
     return answers
 
@@ -341,25 +341,25 @@ def question10():
     answers = {}
 
     # type: string
-    answers["(a) Figure (a)"] = ""
+    answers["(a) Figure (a)"] = "Yes"
 
     # type: string
-    answers["(a) Figure (b)"] = ""
+    answers["(a) Figure (b)"] = "Yes"
 
     # type: explanatory string (at least four words)
-    answers["(a) explain"] = ""
+    answers["(a) explain"] = "We can use DBSCAN to find clusters corresponding to the patterns represented by the nose, eyes, and mouth. DBSCAN can be used to find clustering for low and high-density areas and areas with arbitrary shapes."
 
     # type: string
-    answers["(b) Figure (a)"] = ""
+    answers["(b) Figure (a)"] = "No"
 
     # type: string
-    answers["(b) Figure (b)"] = ""
+    answers["(b) Figure (b)"] = "Yes"
 
     # type: explanatory string (at least four words)
-    answers["(b) explain"] = ""
+    answers["(b) explain"] = "K-means is generally more suitable for identifying clusters in datasets where clusters have a relatively uniform density, rather than datasets with varying density regions but, we can use K-means in higher density areas if clusters are compact and well separated."
 
     # type: string
-    answers["(c)"] = ""
+    answers["(c)"] = "I would prefer DBSCAN clustering because it can be used in higher and lower density areas and can be used even if there are irregular shapes"
 
     return answers
 

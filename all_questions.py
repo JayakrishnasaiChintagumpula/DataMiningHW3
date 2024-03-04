@@ -116,28 +116,28 @@ def question4():
     answers = {}
 
     # type: int
-    answers["(a) Circle (a)"] = 0
+    answers["(a) Circle (a)"] = 1
 
     # type: int
-    answers["(a) Circle (b)"] = 0
+    answers["(a) Circle (b)"] = 1
 
     # type: int
-    answers["(a) Circle (c)"] = 0
+    answers["(a) Circle (c)"] = 1
 
     # type: explanatory string (at least four words)
-    answers["(a) explain"] = ""
+    answers["(a) explain"] = "Since A and B have the same amount of distance and points, one centroid will be drawn in the direction of A. The two centroids are now on the right side of B. Despite the centroid's initial absence, Circle C, which has 100,000 points more than Circle B and is positioned similarly, is guaranteed to keep a centroid because of its higher attraction. Due to their comparable pulls, each centroid in A and B should be attracted by an even distribution of points."
 
     # type: int
-    answers["(b) Circle (a)"] = 0
+    answers["(b) Circle (a)"] = 1
 
     # type: int
-    answers["(b) Circle (b)"] = 0
+    answers["(b) Circle (b)"] = 1
 
     # type: int
-    answers["(b) Circle (c)"] = 0
+    answers["(b) Circle (c)"] = 1
 
     # type: explanatory string (at least four words)
-    answers["(b) explain"] = ""
+    answers["(b) explain"] = "Because of the current points in A and the lack of a greater pull, the centroid will remain at A. One centroid from B will be drawn in by a stronger pull from C. As a result, the centroids of all three circles will be 1, 1, 1."
 
     # type: int
     answers["(c) Circle (a)"] = 0
@@ -146,10 +146,10 @@ def question4():
     answers["(c) Circle (b)"] = 0
 
     # type: int
-    answers["(c) Circle (c)"] = 0
+    answers["(c) Circle (c)"] = 2
 
     # type: explanatory string (at least four words)
-    answers["(c) explain"] = ""
+    answers["(c) explain"] = "The centroid in circle A will get the points from circles B and A because they are near to each other but far from circle C. Two centroids will split up the points in C.   Since the number of points in A and B are equal, the centroid in A will shift between the two. The centroids in C will remain in C with half of the points even though they will slightly diverge."
 
     return answers
 
@@ -161,16 +161,16 @@ def question5():
     answers = {}
 
     # type: set
-    answers["(a)"] = set()
+    answers["(a)"] = {"Group A", "Group B}
 
     # type: explanatory string (at least four words)
-    answers["(a) explain"] = ""
+    answers["(a) explain"] = "Since the leftmost point of B and the rightmost point of A have the smallest single link distance, group A and group B can be combined."
 
     # type: set
-    answers["(b)"] = set()
+    answers["(b)"] = {"Group A", "Group C"}
 
     # type: explanatory string (at least four words)
-    answers["(b) explain"] = ""
+    answers["(b) explain"] = "Since the rightmost point in Group A and the farthest point in Group C have the smallest complete link distance, the two groups can be combined."
 
     return answers
 
@@ -182,19 +182,19 @@ def question6():
     answers = {}
 
     # type: set
-    answers["(a) core"] = set()
+    answers["(a) core"] = {"B", "C", "E", "F", "I", "J", "L", "M"}
 
     # type: set
-    answers["(a) boundary"] = set()
+    answers["(a) boundary"] = {"D", "G"}
 
     # type: set
-    answers["(a) noise"] = set()
+    answers["(a) noise"] = {"A", "H"}
 
     # type: set
-    answers["(b) cluster 1"] = set()
+    answers["(b) cluster 1"] = {"B", "C", "D", "E", "F", "G"}
 
     # type: set
-    answers["(b) cluster 2"] = set()
+    answers["(b) cluster 2"] = {"I", "J", "L", "M"}
 
     # type: set
     answers["(b) cluster 3"] = set()
@@ -203,19 +203,19 @@ def question6():
     answers["(b) cluster 4"] = set()
 
     # type: set
-    answers["(c)-a core"] = set()
+    answers["(c)-a core"] = {"B", "C", "D", "E", "F", "G", "I", "J", "L", "M"}
 
     # type: set
-    answers["(c)-a boundary"] = set()
+    answers["(c)-a boundary"] = {"A", "H"}
 
     # type: set
     answers["(c)-a noise"] = set()
 
     # type: set
-    answers["(c)-b cluster 1"] = set()
+    answers["(c)-b cluster 1"] = {"B", "C", "D", "E", "F", "G", "H", "I", "J", "L", "M"}
 
     # type: set
-    answers["(c)-b cluster 2"] = set()
+    answers["(c)-b cluster 2"] = {"A"}
 
     # type: set
     answers["(c)-b cluster 3"] = set()
@@ -233,16 +233,16 @@ def question7():
     answers = {}
 
     # type: string
-    answers["(a)"] = ""
+    answers["(a)"] = "Cluster 4"
 
     # type: explanatory string (at least four words)
-    answers["(a) explain"] = ""
+    answers["(a) explain"] = "Cluster 4 has the highest entropy among all. This is because the categories are more evenly distributed"
 
     # type: string
-    answers["(b)"] = ""
+    answers["(b)"] = "Cluster 1"
 
     # type: explanatory string (at least four words)
-    answers["(b) explain"] = ""
+    answers["(b) explain"] = "Cluster 1 has the least entropy among all. This is because there is unequal distribution in categories"
 
     return answers
 
@@ -314,22 +314,22 @@ def question9():
     answers = {}
 
     # type: list
-    answers["(a)"] = []
+    answers["(a)"] = ["Hierarchical", "Overlapping", "Partial"]
 
     # type: list
-    answers["(b)"] = []
+    answers["(b)"] = ["Partitional", "Exclusive", "Complete"]
 
     # type: list
-    answers["(c)"] = []
+    answers["(c)"] = ["Partitional", "Fuzzy", "Complete"]
 
     # type: list
-    answers["(d)"] = []
+    answers["(d)"] = ["Hierarchical", "Overlapping", "Partial"]
 
     # type: list
-    answers["(e)"] = []
+    answers["(e)"] = ["Partitional", "Exclusive", "Complete"]
 
     # type: explanatory string (at least four words)
-    answers["(e) explain"] = ""
+    answers["(e) explain"] = "Letter grades are discrete categories which makes them exclusive. Each student can only receive one grade which is Exclusive. Every student in the class will earn a grade which is complete."
 
     return answers
 

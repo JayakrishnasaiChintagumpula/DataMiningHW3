@@ -149,7 +149,7 @@ def question4():
     answers["(c) Circle (c)"] = 2
 
     # type: explanatory string (at least four words)
-    answers["(c) explain"] = "The centroid in circle A will get the points from circles B and A because they are near to each other but far from circle C. Two centroids will split up the points in C.   Since the number of points in A and B are equal, the centroid in A will shift between the two. The centroids in C will remain in C with half of the points even though they will slightly diverge."
+    answers["(c) explain"] = "The centroid in circle A will get the points from circles B and A because they are near to each other but far from circle C. Two centroids will split up the points in C. Since the number of points in A and B are equal, the centroid in A will shift between the two. The centroids in C will remain in C with half of the points even though they will slightly diverge."
 
     return answers
 
@@ -254,55 +254,55 @@ def question8():
     answers = {}
 
     # type: string
-    answers["(a) Matrix 1"] = ""
+    answers["(a) Matrix 1"] = "Dataset Z"
 
     # type: explanatory string (at least four words)
-    answers["(a) explain diag entries, Matrix 1"] = ""
+    answers["(a) explain diag entries, Matrix 1"] = "There is a difference in blueness in terms of the contrast between the two diagonal entries, suggesting that clusters B and C have better cohesiveness than clusters A and D."
 
     # type: explanatory string (at least four words)
-    answers["(a) explain non-diag entries, Matrix 1"] = ""
+    answers["(a) explain non-diag entries, Matrix 1"] = "As the colors of non diagonal elements of row 1 and 3 are different we can consider cluster A and cluster C belong there respectively. Row 2 and 4 are corresponded to clusters B and D respectively. In both rows 2 and 4, the distance to A and C is the same and have the same colors in their respective rows."
 
     # type: string
-    answers["(a) Matrix 2"] = ""
+    answers["(a) Matrix 2"] = "Dataset X"
 
     # type: explanatory string (at least four words)
-    answers["(a) explain diag entries, Matrix 2"] = ""
+    answers["(a) explain diag entries, Matrix 2"] = "There is a difference in blueness in terms of the contrast between the two diagonal entries, suggesting that clusters B and C have better cohesiveness than clusters A and D."
 
     # type: explanatory string (at least four words)
-    answers["(a) explain non-diag entries, Matrix 2"] = ""
+    answers["(a) explain non-diag entries, Matrix 2"] = "The colors of the rows with less distinct diagonal entries vary, suggesting that the distances between these clusters and all other clusters are variable. Rows that have more distinct diagonal entries have two colors that are the same, meaning that they are far from one cluster and have the same distance from two clusters. "
 
     # type: string
-    answers["(a) Matrix 3"] = ""
+    answers["(a) Matrix 3"] = "Dataset Y"
 
     # type: explanatory string (at least four words)
-    answers["(a) explain diag entries, Matrix 3"] = ""
+    answers["(a) explain diag entries, Matrix 3"] = "There is a difference in blueness in terms of the contrast between the two diagonal entries, suggesting that clusters B and C have better cohesiveness than clusters A and D."
 
     # type: explanatory string (at least four words)
-    answers["(a) explain non-diag entries, Matrix 3"] = ""
+    answers["(a) explain non-diag entries, Matrix 3"] = "We can notice that every row in this matrix have 1 different color and other 2 matches. We can say that each cluster has two other clusters closer and one other cluster relatively farther  "
 
     # type: string
-    answers["(b) Row 1"] = ""
+    answers["(b) Row 1"] = "Cluster A"
 
     # type: string
-    answers["(b) Row 2"] = ""
+    answers["(b) Row 2"] = "Cluster B"
 
     # type: string
-    answers["(b) Row 3"] = ""
+    answers["(b) Row 3"] = "Cluster C"
 
     # type: string
-    answers["(b) Row 4"] = ""
+    answers["(b) Row 4"] = "Cluster D"
 
     # type: explanatory string (at least four words)
-    answers["(b) Row 1 explain"] = ""
+    answers["(b) Row 1 explain"] = "We can observe that the diagonal entry has less contrast blue color which indicates that the cluster is less cohesive. We can also observe that all non-diagonal elements have different colors which indicates all other clusters have different distances."
 
     # type: explanatory string (at least four words)
-    answers["(b) Row 2 explain"] = ""
+    answers["(b) Row 2 explain"] = "We can observe that the diagonal entry has more contrast blue color when compared which indicates that the cluster is more cohesive. We can also observe that 2 non-diagonal elements have the same color(even though sharpness varies in A and C) which indicates 2 clusters are closer and D is the farthest."
 
     # type: explanatory string (at least four words)
-    answers["(b) Row 3 explain"] = ""
+    answers["(b) Row 3 explain"] = "We can observe that the diagonal entry has more contrast blue color when compared which indicates that the cluster is more cohesive. We can also observe that 2 non-diagonal elements have the same color(even though sharpness varies in B and D) which indicates 2 clusters are closer and A is the farthest."
 
     # type: explanatory string (at least four words)
-    answers["(b) Row 4 explain"] = ""
+    answers["(b) Row 4 explain"] = "We can observe that the diagonal entry has less contrast blue color which indicates that the cluster is less cohesive. We can also observe that all non-diagonal entries have different colors which indicates that all clusters have different distances(A is farther and C is closer)."
 
     return answers
 

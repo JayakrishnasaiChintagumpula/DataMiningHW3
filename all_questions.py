@@ -236,13 +236,13 @@ def question7():
     answers["(a)"] = "Cluster 4"
 
     # type: explanatory string (at least four words)
-    answers["(a) explain"] = "Cluster 4 has the highest entropy among all. This is because the categories are more evenly distributed"
+    answers["(a) explain"] = "Cluster 4 has the highest entropy among all(approx 2.5). This is because the categories are more evenly distributed"
 
     # type: string
     answers["(b)"] = "Cluster 1"
 
     # type: explanatory string (at least four words)
-    answers["(b) explain"] = "Cluster 1 has the least entropy among all. This is because there is unequal distribution in categories"
+    answers["(b) explain"] = "Cluster 1 has the least entropy among all(approx0.07). This is because there is unequal distribution in categories"
 
     return answers
 

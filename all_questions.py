@@ -50,16 +50,16 @@ def question1():
     answers["(g) explain"] = "Improving cohesion (smaller SSE) in K-Means doesn't necessarily improve separation (larger SSB), as they measure different aspects of clustering: cohesion refers to intra-cluster similarity, while separation refers to inter-cluster dissimilarity"
 
     # type: bool (True/False)
-    answers["(h)"] = False
+    answers["(h)"] = True
 
     # type: explanatory string (at least four words)
-    answers["(h) explain"] = "SSE (within-cluster variability) and BSS (between-cluster variability) are not constant in K-means clustering, as they change with the optimization of cluster centroids."
+    answers["(h) explain"] = "(SST) remains constant throughout the clustering process. This is because it represents the total variance in the data, which doesn't change due to the algorithm's operations."
 
     # type: bool (True/False)
     answers["(i)"] = False
 
     # type: explanatory string (at least four words)
-    answers["(i) explain"] = "In K-means clustering, cohesion refers to intra-cluster similarity, while separation refers to inter-cluster dissimilarity. Increasing cohesion (e.g., reducing SSE) doesn't necessarily lead to increased separation (e.g., larger between-cluster variability). Cohesion and separation are independent metrics, so improving one doesn't guarantee improvement in the other."
+    answers["(i) explain"] = " Increasing cohesion (lower SSE) doesn't guarantee increased separation (higher SSB). They are independent measures, and optimizing one doesn't necessitate improvement in the other."
 
     return answers
 

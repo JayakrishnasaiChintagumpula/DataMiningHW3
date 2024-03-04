@@ -26,40 +26,40 @@ def question1():
     answers["(c) explain"] = "K-means is generally faster and requires less memory than agglomerative hierarchical clustering, but it's not always the most efficient clustering algorithm overall. Other algorithms, like DBSCAN, may be more suitable for certain datasets and tasks"
 
     # type: bool (True/False)
-    answers["(d)"] = -1
+    answers["(d)"] = False
 
     # type: explanatory string (at least four words)
-    answers["(d) explain"] = ""
+    answers["(d) explain"] = "The change in SSE of a clustering cannot be determined solely by splitting a cluster in K-means. It depends on whether the new centroid improves the representation of the data points or not."
 
     # type: bool (True/False)
-    answers["(e)"] = -1
+    answers["(e)"] = True
 
     # type: explanatory string (at least four words)
-    answers["(e) explain"] = ""
+    answers["(e) explain"] = "Decreasing SSE in K-means implies tighter clustering, which means increased cohesion within clusters"
 
     # type: bool (True/False)
-    answers["(f)"] = -1
+    answers["(f)"] = True
 
     # type: explanatory string (at least four words)
-    answers["(f) explain"] = ""
+    answers["(f) explain"] = "SSB (Sum of Squares Between) measures the variability between clusters in K-means clustering. When SSB increases, it means that the distance between cluster centroids increases, indicating greater separation between clusters. Therefore, when SSB increases, separation between clusters also increases"
 
     # type: bool (True/False)
-    answers["(g)"] = -1
+    answers["(g)"] = True
 
     # type: explanatory string (at least four words)
-    answers["(g) explain"] = ""
+    answers["(g) explain"] = "Improving cohesion (smaller SSE) in K-Means doesn't necessarily improve separation (larger SSB), as they measure different aspects of clustering: cohesion refers to intra-cluster similarity, while separation refers to inter-cluster dissimilarity"
 
     # type: bool (True/False)
-    answers["(h)"] = -1
+    answers["(h)"] = False
 
     # type: explanatory string (at least four words)
-    answers["(h) explain"] = ""
+    answers["(h) explain"] = "SSE (within-cluster variability) and BSS (between-cluster variability) are not constant in K-means clustering, as they change with the optimization of cluster centroids."
 
     # type: bool (True/False)
-    answers["(i)"] = -1
+    answers["(i)"] = False
 
     # type: explanatory string (at least four words)
-    answers["(i) explain"] = ""
+    answers["(i) explain"] = "In K-means clustering, cohesion refers to intra-cluster similarity, while separation refers to inter-cluster dissimilarity. Increasing cohesion (e.g., reducing SSE) doesn't necessarily lead to increased separation (e.g., larger between-cluster variability). Cohesion and separation are independent metrics, so improving one doesn't guarantee improvement in the other."
 
     return answers
 
@@ -71,22 +71,22 @@ def question2():
     answers = {}
 
     # type: bool (True/False)
-    answers["(a)"] = -1
+    answers["(a)"] = True
 
     # type: explanatory string (at least four words)
-    answers["(a) explain"] = ""
+    answers["(a) explain"] = "Clusters are too far from the centroid, as seen in the picture, to draw points from other."
 
     # type: bool (True/False)
-    answers["(b)"] = -1
+    answers["(b)"] = False
 
     # type: explanatory string (at least four words)
-    answers["(b) explain"] = ""
+    answers["(b) explain"] = "The clusters will contain points from both of the shaded zones because, as the picture illustrates, the shaded regions are close to one another."
 
     # type: bool (True/False)
-    answers["(c)"] = -1
+    answers["(c)"] = True
 
     # type: explanatory string (at least four words)
-    answers["(c) explain"] = ""
+    answers["(c) explain"] = "Since the 12.5 centroid is far from every point, every other cluster will eventually empty out."
 
     return answers
 
@@ -98,13 +98,13 @@ def question3():
     answers = {}
 
     # type: a string that evaluates to a float
-    answers["(a) SSE"] = 7.5
+    answers["(a) SSE"] = "(R^2)*4"
 
     # type: a string that evaluates to a float
-    answers["(b) SSE"] = 7.5
+    answers["(b) SSE"] = "4*((a*a)+(b*b)+(c*c))"
 
     # type: a string that evaluates to a float
-    answers["(c) SSE"] = 7.5
+    answers["(c) SSE"] = "4*((R^2)+((R/2)^2))"
 
     return answers
 

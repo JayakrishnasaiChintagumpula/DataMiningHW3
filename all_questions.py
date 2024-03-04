@@ -161,7 +161,7 @@ def question5():
     answers = {}
 
     # type: set
-    answers["(a)"] = {"Group A", "Group B}
+    answers["(a)"] = {"Group A", "Group B"}
 
     # type: explanatory string (at least four words)
     answers["(a) explain"] = "Since the leftmost point of B and the rightmost point of A have the smallest single link distance, group A and group B can be combined."
